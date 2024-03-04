@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+   background-color: black;
+}
+#nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+a {
+    margin: 10px 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor:pointer;
+}
+#title {
+    background-color: #ef2e24;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+}
+
+ h1{
+    
+    background-color: #ef2e24;
+    padding-left:  40px;
+    margin-top: 20px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: solid 5px gray;
+    background-color: #ef2e24;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.label{
+    font-size: 25px;
+}
+
+input{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#pulsanti{
+   justify-items: left;
+}
+
+#elaboratore, #immagine {
+    max-height:1200px;
+    max-width: 50%;
+    width: 800px;
+    overflow: hidden;
+    object-fit: contain;
+
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+#elaboratore {
+    background-color: #ef2e24;
+    font-size: 30px;
+}
+
+#immagine {
+    max-height:600px;
+    max-width: 50%;
+    overflow: hidden;
+}
+input {
+    color: black;
+} 
+
+#form{
+    padding-top: 30px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+}
+#labelfirst{
+    margin-right: 20px;
+}
+h3{
+    color: black;
+    margin-left: 40px;
+    font-size: 1.3em;
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.523);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap')
+
+
